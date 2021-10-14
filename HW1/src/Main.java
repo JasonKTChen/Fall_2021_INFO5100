@@ -118,12 +118,12 @@ public class Main {
         for(int i = 0; i < str.length(); i++){
             boolean numeric = isNumeric(String.valueOf(str.charAt(i)));
             if (numeric) {
-                if (check){
+                if (check && i!=0){
                     return false;
                 }
                 check = true;
             }else{
-                if (!check){
+                if (!check && i!=0){
                     return false;
                 }
                 check = false;
