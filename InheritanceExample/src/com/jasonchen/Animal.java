@@ -1,6 +1,6 @@
 package com.jasonchen;
-//
-enum animaltype {mamal, fish, reptile};
+
+enum animaltype {mamal, fish, reptile}
 
 public class Animal {
 

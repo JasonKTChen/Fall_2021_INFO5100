@@ -9,9 +9,6 @@ public class Cat extends Animal implements iSwim{
     public void speak(){
         System.out.println("I am saying meow");
     }
-
     @Override
-    public void swim() {
-
-    }
+    public void swim() {}
 }
